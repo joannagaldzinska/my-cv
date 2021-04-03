@@ -249,6 +249,7 @@ body {
 }
 
 .sm-list {
+  list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -292,11 +293,6 @@ body {
 .sm-list-item-icon:hover .item-icon,
 .sm-list-item-icon:focus .item-icon {
   fill: white;
-}
-
-ul {
-  text-decoration: none;
-  list-style: none;
 }
 
 .name {
